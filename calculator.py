@@ -1,5 +1,5 @@
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
+num1 = float(input("Enter the value of A: "))
+num2 = float(input("Enter the value of B: "))
 
 print("Choose operation:")
 print("+  Addition")
@@ -8,17 +8,17 @@ print("*  Multiplication")
 print("/  Division")
 operation = input("Enter operation (+, -, *, /): ")
 
-if operation == "+":
+if (operation == "+"):
     result = num1 + num2
     print("Result:", result)
-elif operation == "-":
+elif (operation == "-"):
     result = num1 - num2
     print("Result:", result)
-elif operation == "*":
+elif (operation == "*"):
     result = num1 * num2
     print("Result:", result)
-elif operation == "/":
-    if num2 != 0:
+elif (operation == "/"):
+    if (num2 != 0):
         result = num1 / num2
         print("Result:", result)
     else:
